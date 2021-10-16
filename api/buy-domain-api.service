@@ -1,0 +1,15 @@
+[Unit]
+Description=The API service for buy domains
+
+[Service]
+ExecStart=/www/buy-domain-api/api.js
+Restart=always
+User=nobody
+# Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
+Group=nogroup
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/www/buy-domain-api
+
+[Install]
+WantedBy=multi-user.target
