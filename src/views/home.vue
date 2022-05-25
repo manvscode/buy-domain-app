@@ -6,7 +6,7 @@
 		<div class="col-md-12">
 			<div class="jumbotron border">
 				<h1 class="display-4">Do you like <span v-html="domain"></span>?  You can buy it!</h1>
-				<p class="lead">If you are an interested in owning this domain, please fill out this form.</p>
+				<p class="lead">If you are interested in owning this domain, please fill out this form.</p>
 				<hr class="my-4">
 
 				<section class="col-md-3">
